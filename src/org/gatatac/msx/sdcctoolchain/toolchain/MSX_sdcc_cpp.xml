@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolchaindefinition xmlns="https://netbeans.org/ns/cnd-toolchain-definition/1">
+    <cpp>
+        <compiler name="g++"/>
+        <development_mode>
+            <fast_build flags=""/>
+            <debug flags="-g3 -gdwarf-2" default="true"/>
+            <performance_debug flags="-g -O"/>
+            <test_coverage flags="-g"/>
+            <diagnosable_release flags="-g -O2"/>
+            <release flags="-O2"/>
+            <performance_release flags="-O3"/>
+        </development_mode>
+    </cpp>
+</toolchaindefinition>

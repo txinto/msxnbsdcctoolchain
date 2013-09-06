@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolchaindefinition xmlns="https://netbeans.org/ns/cnd-toolchain-definition/1">
+    <c>
+        <compiler name="sdcc"/>
+        <development_mode>
+            <fast_build flags="-mz80 --code-loc 0x0107 --data-loc 0 --no-std-crt0 crt0msx_msxdos.rel"/>
+            <debug flags="-mz80 --code-loc 0x0107 --data-loc 0 --no-std-crt0 crt0msx_msxdos.rel" default="true"/>
+            <performance_debug flags="-mz80 --code-loc 0x0107 --data-loc 0 --no-std-crt0 crt0msx_msxdos.rel"/>
+            <test_coverage flags="-mz80 --code-loc 0x0107 --data-loc 0 --no-std-crt0 crt0msx_msxdos.rel"/>
+            <diagnosable_release flags="-mz80 --code-loc 0x0107 --data-loc 0 --no-std-crt0 crt0msx_msxdos.rel"/>
+            <release flags="-mz80 --code-loc 0x0107 --data-loc 0 --no-std-crt0 crt0msx_msxdos.rel"/>
+            <performance_release flags="-mz80 --code-loc 0x0107 --data-loc 0 --no-std-crt0 crt0msx_msxdos.rel"/>
+        </development_mode>
+    </c>
+</toolchaindefinition>

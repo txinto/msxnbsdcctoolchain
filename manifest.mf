@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.gatatac.msx.sdcctoolchain
+OpenIDE-Module-Layer: org/gatatac/msx/sdcctoolchain/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/gatatac/msx/sdcctoolchain/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
